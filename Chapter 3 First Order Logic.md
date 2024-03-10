@@ -77,3 +77,22 @@ $$
 $$
 
 
+Examples:
+$$
+\text{All birds can fly} \lrarr \forall x(\text{Bird}(x)\rarr\text{Fly}(x))\\
+\text{There is a bird that can fly} \lrarr \exist x(\text{Bird}(x)\and \text{Fly}(x))\\
+\text{Not all birds can fly}\lrarr \exist x(\text{Bird}(x) \and \neg \text{Fly}(x))
+$$
+
+
+**Negation of Multiply-Quantified Statement**: Example
+
+![image-20240310162955854](https://cdn.jsdelivr.net/gh/ayhhyhh/IMGbed@master/imgs/202403101629072.png)
+
+**Arguments With Quantified Statements**
+
+Valid Check Method: 
+
+- Universal Instantiation: If some property is true of *everything* in the set, then it is true of *any particular* thing in the set. Usually using universal modus ponens or tollens(Proof of Contradiction)
+- Diagram: VN Diagram
+
